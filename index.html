@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <title>Vanillia js</title>
+  </head>
+  <body>
+    <div class="loader" id="loader"></div>
+    <section class="hero" id="home">
+      <div class="overlay">
+          <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+              <h2 id="logo">stated.</h2>
+            </div>
+            <button class="toggle">
+              <i class="fas fa-bars fa-2x"></i>
+            </button>
+            <ul class="navbar-items flex">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#properties" class="nav-link properties">Properties</a>
+              </li>
+              <li class="nav-item">
+                <a href="#agents" class="nav-link agents">Agents</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link about about">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link fa-services services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#news" class="nav-link news">News</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link contact">Contact</a>
+              </li>
+            </ul>
+          <div class="clear"></div>
+        </div>
+          </nav>
+          <div class="hero-content">
+            <h1>Buy and sell real estate properties</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              optio ullam doloremque ut amet atque porro odit consectetur,
+              quisquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-works">
+      <div class="container">
+        <h2 class="title">How it works</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <i class="fas fa-home fa-2x"></i>
+            <h3>Find a Property.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="grid-item">
+            <i class="fas fa-dollar-sign fa-2x"></i>
+            <h3>Buy a Property.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="grid-item">
+            <i class="fas fa-chart-line fa-2x"></i>
+            <h3>Investing.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section properties" id="properties">
+      <div class="container">
+        <h2>Properties</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./imgs/property_2.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_3.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_4.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_1.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+        </div>
+        <div class="grid-container d-none">
+          <div class="grid-item">
+            <img src="./imgs/property_2.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_3.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_4.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_1.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+        </div>
+        <div class="grid-container d-none">
+          <div class="grid-item">
+            <img src="./imgs/property_2.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_3.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_4.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/property_1.jpg" alt="property_1">
+            <p>6 beds | 4 baths | 4.250 sqft.</p>
+            <p>480 12th, Unit 14, San Francisco, CA</p>
+          </div>
+        </div>
+        <button class="property-btn">Show More Properties</button>
+      </div>
+    </section>
+    <section class="section agents" id="agents">
+      <div class="container">
+        <h2>Agents</h2>
+        <p class="agents-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./imgs/person_1.jpg" alt="p_1">
+            <div>
+              <h3>Kaiara Spencer</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/person_2.jpg" alt="p_2">
+            <div>
+              <h3>Dave Simpson</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/person_3.jpg" alt="p_3">
+            <div>
+              <h3>Ben Thompson</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./imgs/person_4.jpg" alt="p_4">
+            <div>
+              <h3>Kyla Stewart</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/person_5.jpg" alt="p_5">
+            <div>
+              <h3>Rich Moffatt</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+          <div class="grid-item">
+            <img src="./imgs/person_6.jpg" alt="p_6">
+            <div>
+              <h3>Stuart Redman</h3>
+              <p>Real Estate Agent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="line">
+    <section class="section about" id="about">
+      <div class="container">
+
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./imgs/property_1.jpg" alt="p1">
+          </div>
+          <div class="grid-item">
+            <h2>We Are the Best Real Estate Company</h2>
+            <p class="large-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+            <ul>
+              <li>Placeat maxime animi minus</li>
+              <li>Placeat maxime animi minus</li>
+              <li>Placeat maxime animi minus</li>
+              <li>Placeat maxime animi minus</li>
+              <li>Placeat maxime animi minus</li>
+            </ul>
+        <button class="about-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section services" id="services">
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-home fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+          <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-dollar-sign fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+          <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-chart-line fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+        <div class="grid-container">
+        <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-building fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+          <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-search fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+          <div class="grid-item">
+            <div class="icon">
+              <i class="fas fa-mobile-alt fa-3x"></i>
+            </div>
+            <div>
+              <h3>Search Property</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+            </div>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section news" id="news">
+      <div class="container">
+        <h2>What Our Clients Are Saying</h2>
+        <div class="carousel">
+          <blockquote id="carousel">
+          </blockquote>
+        </div>
+      </div>
+    </section>
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="contact-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        20377 Evergreen Terrace Mountain View, California, USA
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">232-232-2323</a>
+
+                    <label>Email Address</label>
+                    <a href="#">ouremail@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About Stated</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Subscribe to our Newsletter</h5>
+                <div id="subscribe-container">
+                    <input type="text" placeholder="Enter Email" />
+                    <button class="right-rounded">Send</button>
+                </div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright &copy; 2021 All rights reserved | This template is made with <span class="fa fa-heart"></span> by <a href="https://www.facebook.com/A7mdMo74/">A7mdMo74</a>
+        </small>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
